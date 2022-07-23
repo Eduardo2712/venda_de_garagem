@@ -5,7 +5,7 @@ import { useContext, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import ModalAviso from "../../../components/modal_aviso";
 import { AutenticacaoContext } from "../../../context/autenticacao";
-import { ContextLogin, Tipo_anuncio } from "../../../types";
+import { ContextLogin, TipoAnuncio } from "../../../types";
 import BotaoRedirecionar from "../../../components/botao_redirecionar";
 import BotaoEnviar from "../../../components/botao_enviar";
 import { useDispatch, useSelector } from "react-redux";
@@ -25,7 +25,7 @@ const FormularioAnuncio = () => {
     const modalAviso = useSelector((state: RootState) => state.modalAviso);
     const dispatch = useDispatch();
     const { login } = useContext(AutenticacaoContext) as ContextLogin;
-    const [tipoAnuncio, setTipoAnuncio] = useState<Tipo_anuncio[]>([]);
+    const [tipoAnuncio, setTipoAnuncio] = useState<TipoAnuncio[]>([]);
 
     useEffect(() => {
         axios

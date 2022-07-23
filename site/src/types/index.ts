@@ -15,7 +15,7 @@ export type Usuario = {
     senha: string;
 };
 
-export type Tipo_anuncio = {
+export type TipoAnuncio = {
     id: number;
     nome: string;
 };
@@ -47,7 +47,7 @@ export type Anuncio = {
     descricao: string;
     usuarios: Usuario;
     imagens: Imagem[];
-    tipo_anuncios: Tipo_anuncio;
+    tipo_anuncios: TipoAnuncio;
     valores: Valor[];
     comentarios: Comentario[];
     data_criado: Date;

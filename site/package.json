@@ -1,0 +1,55 @@
+{
+  "name": "site",
+  "version": "0.1.0",
+  "private": true,
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@prisma/client": "^4.0.0",
+    "@reduxjs/toolkit": "^1.8.2",
+    "axios": "^0.27.2",
+    "date-fns": "^2.28.0",
+    "dotenv-safe": "^8.2.0",
+    "formidable": "^3.2.4",
+    "formik": "^2.2.9",
+    "jose": "^4.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "next": "12.1.6",
+    "next-connect": "^1.0.0-next.2",
+    "nodemailer": "^6.7.5",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "redux": "^4.2.0",
+    "styled-components": "^5.3.5",
+    "swr": "^1.3.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "@redux-devtools/core": "^3.13.1",
+    "@types/node": "^17.0.31",
+    "@types/react": "18.0.8",
+    "@types/react-dom": "18.0.3",
+    "@types/styled-components": "^5.1.25",
+    "babel-plugin-styled-components": "^2.0.7",
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.6",
+    "prisma": "^4.0.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
